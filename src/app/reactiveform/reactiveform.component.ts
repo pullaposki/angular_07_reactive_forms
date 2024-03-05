@@ -4,6 +4,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 @Component({
   selector: 'reactiveform',
   templateUrl: './reactiveform.component.html',
+  styleUrls: ['./reactiveform.component.css'],
 })
 export class ReactiveForm {
   contactForm = new FormGroup({
